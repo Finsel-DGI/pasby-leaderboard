@@ -8,16 +8,13 @@ interface Result {
 }
 
 export const fetchBoard = async () => {
-  const res = await axios.get(
-    "https://bounce.rebat.org/https://r-serve.web.app/jigi/users",
-    {
-      headers: {
-        "x-requested-with": `${process.env.APP_KEY}`,
-        "Content-Type": " application/json ",
-        Accept: "*/*",
-      },
-    }
-  );
+  const res = await axios.get("https://r-serve.web.app/jigi/users", {
+    headers: {
+      "x-requested-with": `A6cC9SO7w44.sf~iAo1,c2u.zOoIHVq.ZIPafmj_`,
+      "Content-Type": " application/json ",
+      Accept: "*/*",
+    },
+  });
   const data: Board[] = await res.data.data.board;
 
   console.log(data);
