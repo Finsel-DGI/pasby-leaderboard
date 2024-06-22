@@ -2,7 +2,7 @@ export const dynamic = "force-dynamic";
 
 import Image from "next/image";
 
-import jijicode from "@/lib/assets/Jigi Download.png";
+import jijicode from "@/lib/assets/jigi app.png";
 import pasbycode from "@/lib/assets/activate pasby.png";
 
 import BoardInfo from "@/components/board-info";
