@@ -24,7 +24,6 @@ export const fetchBoard = async () => {
 export const refactoredBoard = ({ data }: { data: Board[] }) => {
   const sortedData = data.sort((a, b) => b.points - a.points);
 
-  // Step 2: Transform the sorted array into the desired format
   const result: Result[] = sortedData.map((item, index) => ({
     position: index + 1,
     points: item.points,
