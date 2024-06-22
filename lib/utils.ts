@@ -7,6 +7,8 @@ interface Result {
   name: string;
 }
 
+//Confirm
+
 export const fetchBoard = async () => {
   const res = await axios.get("https://r-serve.web.app/jigi/users", {
     headers: {
