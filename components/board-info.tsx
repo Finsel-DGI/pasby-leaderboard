@@ -18,7 +18,7 @@ const BoardInfo = () => {
     queryKey: ["board"],
     queryFn: fetchBoard,
     refetchOnMount: false,
-    // refetchInterval: 5000,
+    refetchInterval: 2000,
   });
 
   let refactoredData;
