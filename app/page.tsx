@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import BoardInfo from "@/components/board-info";
 
 export default function Home() {

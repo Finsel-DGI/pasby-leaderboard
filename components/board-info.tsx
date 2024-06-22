@@ -11,7 +11,7 @@ import { fetchBoard, refactoredBoard } from "@/lib/utils";
 import jijilogo from "@/lib/assets/jigi-africa.svg";
 import jiji from "@/lib/assets/jigi-app.svg";
 
-export const dynamic = "force-dynamic";
+
 
 const BoardInfo = () => {
   const { data: boardData, isPending } = useQuery({
