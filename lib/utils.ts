@@ -10,7 +10,7 @@ interface Result {
 export const fetchBoard = async () => {
   const res = await axios.get("https://r-serve.web.app/jigi/users", {
     headers: {
-      "x-requested-with": process.env.APP_KEY,
+      "x-requested-with": `${process.env.APP_KEY}`,
       "Content-Type": " application/json ",
       Accept: "*/*",
     },
