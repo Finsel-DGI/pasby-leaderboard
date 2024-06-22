@@ -9,7 +9,7 @@ interface Result {
 
 export const fetchBoard = async () => {
   const res = await axios.get(
-    "https://callback.buka.direct/https://r-serve.web.app/jigi/users",
+    "https://bounce.rebat.org/https://r-serve.web.app/jigi/users",
     {
       headers: {
         "x-requested-with": `${process.env.APP_KEY}`,
