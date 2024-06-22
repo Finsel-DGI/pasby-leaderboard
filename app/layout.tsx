@@ -19,8 +19,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={" bg-white font-satoshi"}>
-        <header className=" w-full py-3 flex justify-between px-10 border-b-2 border-gray-100">
+        <header className=" w-full py-3 flex items-center justify-between px-10 border-b-2 border-gray-100">
           <Image src={logo} width={50} height={50} alt="" />
+          <p className=" text-lg">
+            Scan the qr code to activate your{" "}
+            <span className=" font-bold">
+              pasby<sup>TM</sup>
+            </span>{" "}
+            and download the <span className=" font-bold">Jigi</span> app
+            through the qr code
+          </p>
           <Image src={jiji} width={50} height={50} alt="" />
         </header>
         <TanstackProvider>{children}</TanstackProvider>
