@@ -10,16 +10,22 @@ import BoardInfo from "@/components/board-info";
 export default function Home() {
   return (
     <main className=" w-full h-screen relative py-[3rem]">
-      <div className=" fixed left-[5vh] top-[20vh]">
+      <div className=" fixed left-[10vh] top-[20vh]">
         <div className=" space-y-5">
-          <h1 className=" font-semibold text-lg">Scan to download Jigi app</h1>
-          <Image src={jijicode} width={200} height={200} alt="" />
+          <h1 className=" font-semibold text-lg text-center">
+            Scan to download Jigi app
+          </h1>
+          <Image src={jijicode} width={300} height={300} alt="" />
         </div>
         <br />
+      </div>
 
+      <div className=" fixed right-[15vh] top-[20vh]">
         <div className=" space-y-5">
-          <h1 className=" font-semibold text-lg">Scan to activate pasby</h1>
-          <Image src={pasbycode} width={200} height={200} alt="" />
+          <h1 className=" font-semibold text-lg text-center">
+            Scan to activate pasby
+          </h1>
+          <Image src={pasbycode} width={300} height={300} alt="" />
         </div>
       </div>
       <div className=" w-[40%] mx-auto ">
