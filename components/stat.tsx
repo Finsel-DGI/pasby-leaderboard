@@ -20,7 +20,7 @@ const Stat = ({
       <div
         className={clsx(
           "   rounded-[50%] relative",
-          position != 1 && " w-[10rem] h-[10rem] ",
+          position != 1 && " w-[9rem] h-[9rem] ",
           position == 1 && " w-[12rem] h-[12rem] "
         )}
       >
