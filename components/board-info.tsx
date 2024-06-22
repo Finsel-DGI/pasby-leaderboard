@@ -40,7 +40,7 @@ const BoardInfo = () => {
             <Image src={jiji} width={80} height={80} alt="" />
             <p className=" text-lg font-semibold text-center">
               {
-                "Welcome to Jiji, the ultimate African geography trivia game brought to you by Pasby! Get ready to test your knowledge and explore the rich diversity of the African continent. In this exciting game, you'll be presented with random maps of African countries, and your challenge is to guess the country. Whether you're a geography enthusiast or just looking for some fun, Jiji is the perfect way to learn and play. Let's see how many countries you can identify – let the adventure begin!"
+                "Welcome to Jigi, the ultimate African geography trivia game brought to you by Pasby! Get ready to test your knowledge and explore the rich diversity of the African continent. In this exciting game, you'll be presented with random maps of African countries, and your challenge is to guess the country. Whether you're a geography enthusiast or just looking for some fun, Jigi is the perfect way to learn and play. Let's see how many countries you can identify – let the adventure begin!"
               }
             </p>
           </div>
