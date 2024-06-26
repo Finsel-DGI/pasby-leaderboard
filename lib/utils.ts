@@ -7,6 +7,8 @@ interface Result {
   name: string;
 }
 
+const key = process.env.API_KEY;
+
 //Confirm
 
 export const fetchBoard = async () => {
