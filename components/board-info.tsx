@@ -98,7 +98,8 @@ const BoardInfo = () => {
                     {item.position < 4 && (
                       <div
                         className={clsx(
-                          " text-gold",
+                          "",
+                          item.position == 1 && " text-gold",
                           item.position == 2 && " text-silver",
                           item.position == 3 && "text-bronze"
                         )}
