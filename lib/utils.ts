@@ -12,7 +12,7 @@ interface Result {
 export const fetchBoard = async () => {
   const res = await axios.get("/jiji", {
     headers: {
-      "x-requested-with": `A6cC9SO7w44.sf~iAo1,c2u.zOoIHVq.ZIPafmj_`,
+      "x-requested-with": `${process.env.API_KEY}`,
       "Content-Type": " application/json ",
       Accept: "*/*",
     },
