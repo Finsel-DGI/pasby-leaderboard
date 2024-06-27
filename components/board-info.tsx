@@ -45,7 +45,7 @@ const BoardInfo = () => {
             </p>
           </div>
         ) : (
-          refactoredData?.map((item, index) => {
+          refactoredData?.slice(0, 3).map((item, index) => {
             return (
               <Stat
                 key={index}
